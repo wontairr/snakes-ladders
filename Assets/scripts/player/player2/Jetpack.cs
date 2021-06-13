@@ -79,14 +79,15 @@ public class Jetpack : MonoBehaviour
 
     public void SuperJetPackON()
     {
-        addedForce = 350f;
+        addedForce = 1500f;
         fuelburnrate = 5f;
-
+        fuel = 500f;
     }
     public void SuperJetPackOFF()
     {
-        addedForce = 55f;
-        fuelburnrate = 50f;
+        addedForce = 780f;
+        fuelburnrate = 58.5f;
+        fuel = 100f;
 
     }
 
